@@ -114,6 +114,20 @@ main{
     display: flex;
     justify-content: space-around;
 }
+.plant-big-card{
+    position: relative;
+}
+.sold-out{
+    position: absolute;
+    right: 0;
+    width: 94px;
+    height: 28px;
+    background-color: black;
+    color:#FFF9F1;
+    padding: 6px 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
 .plant-big-card > img{
     width: 442px;
 }
