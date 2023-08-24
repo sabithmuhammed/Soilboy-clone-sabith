@@ -57,7 +57,7 @@ main{
     cursor: pointer;
 }
 .logo{
-    background-image: url("images/soilboy-logo.png");
+    background-image: url("./images/soilboy-logo.png");
     width: 119px;
     height: 40px;
     background-size: contain;
@@ -74,7 +74,7 @@ main{
 .big-banner{
     height: 100vh;
     width: 100%;
-    background-image: url("images/big-banner.jpg");
+    background-image: url("./images/big-banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -153,7 +153,7 @@ main{
 .banner-picture{
     height: 594px;
     width: 100%;
-    background-image: url('images/banner-2.jpg');
+    background-image: url('./images/banner-2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@ main{
     
     height: 594px;
     width: 100%;
-    background-image: url(images/banner-moving.jpg);
+    background-image: url('./images/banner-moving.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
