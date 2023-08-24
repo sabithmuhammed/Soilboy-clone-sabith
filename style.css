@@ -1,19 +1,22 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     /* font-family: 'Schibsted Grotesk', sans-serif; */
-   
+
     font-family: 'Red Hat Display', sans-serif;
     color: #262626;
-                                                
+
 }
-li{
+
+li {
     list-style: none;
 }
-button{
+
+button {
     border-radius: 25px;
     border-style: solid;
     background-color: transparent;
@@ -22,17 +25,15 @@ button{
 }
 
 
-body{
+body {
     background-color: #FFF9F1;
-    
-    
     width: 100%;
 }
 
-nav{
+nav {
     width: 100%;
     height: 106px;
-    background-color:transparent;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,38 +41,44 @@ nav{
     position: fixed;
     top: 0;
 }
-main{
+
+main {
     height: fit-content;
 }
-.pages-container > ul{
+
+.pages-container>ul {
     width: 445px;
     display: flex;
     justify-content: space-between;
-    
+
 
 }
-.nav--text{
+
+.nav--text {
     font-size: 16px;
     color: #262626;
     font-weight: 500;
     cursor: pointer;
 }
-.logo{
+
+.logo {
     background-image: url("./images/soilboy-logo.png");
     width: 119px;
     height: 40px;
     background-size: contain;
     cursor: pointer;
 }
-.nav-icons{
+
+.nav-icons {
     width: 460px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 300px;
-    
+
 }
-.big-banner{
+
+.big-banner {
     height: 100vh;
     width: 100%;
     background-image: url("./images/big-banner.jpg");
@@ -82,9 +89,10 @@ main{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-left:70px;
+    padding-left: 70px;
 }
-.big-banner >h2{
+
+.big-banner>h2 {
     font-size: 44px;
     text-align: left;
     font-weight: 500;
@@ -92,46 +100,54 @@ main{
     letter-spacing: 3px;
     color: #19341E;
 }
-.signup-btn{
+
+.signup-btn {
     font-size: 18px;
     padding: 8px 20px;
     margin-top: 25px;
     border-color: #262626;
 
 }
-.plant-big-tile{
+
+.plant-big-tile {
     width: 100%;
     height: fit-content;
     padding: 102px 62px;
 }
-.plant-big-tile >h3{
+
+.plant-big-tile>h3 {
     font-size: 31px;
     letter-spacing: 2px;
     color: #19341E;
 
 }
-.plant-big-container{
+
+.plant-big-container {
     display: flex;
     justify-content: space-around;
 }
-.plant-big-card{
+
+.plant-big-card {
     position: relative;
 }
-.sold-out{
+
+.sold-out {
     position: absolute;
     right: 0;
     width: 94px;
     height: 28px;
     background-color: black;
-    color:#FFF9F1;
+    color: #FFF9F1;
     padding: 6px 8px;
     font-size: 15px;
     font-weight: 600;
 }
-.plant-big-card > img{
+
+.plant-big-card>img {
     width: 442px;
 }
-.plant-big-tile >button {
+
+.plant-big-tile>button {
     font-size: 15px;
     width: 83px;
     height: 33px;
@@ -140,31 +156,37 @@ main{
     border-color: #19341E;
     margin-top: 35px;
 }
-.plant-big-card{
+
+.plant-big-card {
     display: flex;
     flex-direction: column;
     margin-bottom: 75px;
 }
-.card-text{
+
+.card-text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.card-name{
+
+.card-name {
     font-size: 20px;
     font-weight: 500;
 }
-.card-price{
+
+.card-price {
     font-size: 17px;
     font-weight: 500;
 }
-.big-banner-second{
-    width:100% ;
+
+.big-banner-second {
+    width: 100%;
     height: 717px;
     display: flex;
     align-items: flex-end;
 }
-.banner-picture{
+
+.banner-picture {
     height: 594px;
     width: 100%;
     background-image: url('./images/banner-2.jpg');
@@ -175,7 +197,8 @@ main{
     align-items: flex-end;
     margin-bottom: 50px;
 }
-.banner-content{
+
+.banner-content {
     display: flex;
     flex-direction: column;
     height: 30%;
@@ -185,18 +208,23 @@ main{
     padding-top: 5px;
     margin-bottom: 70px;
 }
-.banner-content >h4 ,.banner-content >p{
+
+.banner-content>h4,
+.banner-content>p {
     color: white;
 }
-.banner-content >h4{
+
+.banner-content>h4 {
     font-size: 22px;
     font-weight: 600;
 }
-.banner-content >p{
+
+.banner-content>p {
     font-size: 16px;
     font-weight: 600;
 }
-.btn-white{
+
+.btn-white {
     font-size: 17px;
     height: 43px;
     width: 127px;
@@ -204,59 +232,72 @@ main{
     color: white;
     font-weight: 500;
 }
-.banner-group{
+
+.banner-group {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.banner-single{
+
+.banner-single {
     width: 1117px;
     height: 719px;
     margin: 101px 0;
     display: flex;
-    
+
 }
-.banner-group-text,.banner-group-image{
+
+.banner-group-text,
+.banner-group-image {
     height: 100%;
 }
-.banner-group-image{
+
+.banner-group-image {
     width: 52%;
 }
-.banner-group-text{
+
+.banner-group-text {
     width: 48%;
 }
-.banner-group-text{
+
+.banner-group-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.banner-group-image >img{
+
+.banner-group-image>img {
     /* object-fit: cover; */
     width: 100%;
     height: 100%;
 }
-.banner-group-text > p{
+
+.banner-group-text>p {
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 1px;
 }
-.banner-group-text >a{
+
+.banner-group-text>a {
     margin-top: 25px;
 }
-.btn-shopnow{
+
+.btn-shopnow {
     width: 123px;
     height: 43px;
     font-size: 17px;
     font-weight: 500;
     margin-top: 25px;
 }
-.padding--banner{
+
+.padding--banner {
     padding-left: 70px;
     font-size: 16px;
     font-weight: 400;
 }
-.maving-banner{
-    
+
+.maving-banner {
+
     height: 594px;
     width: 100%;
     background-image: url('./images/banner-moving.jpg');
@@ -269,21 +310,24 @@ main{
     justify-content: flex-end;
     padding-left: 64px;
     padding-bottom: 70px;
-    
+
     margin-bottom: 70px;
 }
-.maving-banner >p{
-font-size: 25px;
-font-weight: 600;
-color: white;
+
+.maving-banner>p {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
 }
-.btn-find-more{
+
+.btn-find-more {
     width: 127px;
     height: 33px;
     font-size: 14px;
     margin-top: 20px;
 }
-.small-tile-container{
+
+.small-tile-container {
     width: 100%;
     padding: 153px 0 0;
     display: flex;
@@ -293,38 +337,45 @@ color: white;
     align-items: center;
     margin-bottom: 70px;
 }
-.small-tiles{
+
+.small-tiles {
     width: 1151px;
     height: 840px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding: 0 20px;
     gap: 20px;
 }
-.tile-single{
-    
+
+.tile-single {
+
     height: 264px;
     cursor: pointer;
 }
-.tile-single >img{
+
+.tile-single>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
-.small-tile-container >p{
+
+.small-tile-container>p {
     font-size: 20px;
     font-weight: 500;
     margin-top: 50px;
 }
-.small-tile-container > p >a{
+
+.small-tile-container>p>a {
     color: #19341E;
 }
-.btn-grey:hover{
+
+.btn-grey:hover {
     background-color: #19341E;
     color: #FFF9F1;
 }
-.footer{
+
+.footer {
     height: 405px;
     width: 100%;
     background-color: #262626;
@@ -333,41 +384,47 @@ color: white;
     justify-content: space-between;
     padding: 50px 61px;
 }
-.singup-container{
+
+.singup-container {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 20px;
 }
-.social-container{
+
+.social-container {
     display: flex;
     height: 100%;
 }
-.contact{
+
+.contact {
     display: flex;
     flex-direction: column;
     height: 100%;
 
 }
-footer *{
+
+footer * {
     color: #FFF9F1;
     font-weight: 500;
 }
-.signup-text>p{
-margin-top: 20px;
-font-weight: 500;
+
+.signup-text>p {
+    margin-top: 20px;
+    font-weight: 500;
 
 }
 
-input{
-    width:288px ;
-    height:70px;
+input {
+    width: 288px;
+    height: 70px;
     font-size: 16px;
     color: #f1f0ee;
     text-indent: 30px;
 }
-.btn-sign-up{
+
+.btn-sign-up {
     width: 132px;
     height: 65px;
     margin-left: 10px;
@@ -375,21 +432,26 @@ input{
     font-size: 17px;
     border-radius: 300px;
 }
-.social-media{
+
+.social-media {
     margin-right: 150px;
     display: flex;
     flex-direction: column;
 }
-.social-media >h1{
+
+.social-media>h1 {
     margin-bottom: 40px;
 }
-.contact >*{
+
+.contact>* {
     margin-bottom: 30px;
 }
-.right{
+
+.right {
     margin-top: 60px;
 }
-.btn--white:hover{
+
+.btn--white:hover {
     background-color: #FFF9F1;
     color: #262626;
 }

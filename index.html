@@ -34,7 +34,10 @@
             class="fa-brands fa-instagram fa-lg nav--text"
             style="color: #000000"
           ></i>
-          <i class="fa-solid fa-cart-shopping " style="color: #000000;cursor: pointer">
+          <i
+            class="fa-solid fa-cart-shopping"
+            style="color: #000000; cursor: pointer"
+          >
             &nbsp;<sup>0</sup></i
           >
         </div>
@@ -121,7 +124,9 @@
             inspire a sense of curiosity for the greener things in <br />
             life. ‘Cause at SoilBoy, we do it right.
           </p>
-          <button class="btn-white btn-find-more btn--white">Find out more</button>
+          <button class="btn-white btn-find-more btn--white">
+            Find out more
+          </button>
         </div>
         <div class="small-tile-container">
           <div class="small-tiles">
@@ -189,30 +194,30 @@
         </div>
         <div class="contact">
           <h1>Contact</h1>
-          <p>9 Sin Ming Road <br>#01-04 Singapore 575630</p>
+          <p>9 Sin Ming Road <br />#01-04 Singapore 575630</p>
           <p>hello@soilboy.sg</p>
           <p class="right">Soilboy © 2022</p>
         </div>
       </div>
     </footer>
     <script>
-      let lastScroll=0;
-      const navbar=document.getElementById('navbar');
-      window.addEventListener('scroll',()=>{
-          let scrollTop=document.documentElement.scrollTop;
-          if(scrollTop>lastScroll){
-              navbar.style.top='-100px'
-          }else{
-              navbar.style.top='0';
-          }
-          if(scrollTop===0){
-              navbar.style.backgroundColor="transparent";
-          }else{
-              navbar.style.backgroundColor="#FFF9F1";
-          }
-          lastScroll=scrollTop;
-          console.log(document.documentElement.scrollTop);
-      })
-  </script>
+      let lastScroll = 0;
+      const navbar = document.getElementById("navbar");
+      window.addEventListener("scroll", () => {
+        let scrollTop = document.documentElement.scrollTop;
+        if (scrollTop > lastScroll) {
+          navbar.style.top = "-106px";
+        } else {
+          navbar.style.top = "0";
+        }
+        if (scrollTop === 0) {
+          navbar.style.backgroundColor = "transparent";
+        } else {
+          navbar.style.backgroundColor = "#FFF9F1";
+        }
+        lastScroll = scrollTop;
+        console.log(document.documentElement.scrollTop);
+      });
+    </script>
   </body>
 </html>
